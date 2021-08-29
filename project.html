@@ -23,6 +23,8 @@
     <link href="css/camera.css" rel="stylesheet">
     <!-- Template  -->
     <link href="css/templatemo_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,58 +35,92 @@
 
 <body>
     <div>
-            <div class="templatemo_banner_02">
-                <div>
-                    <h1 style="text-align:center; font-weight:bold; color: white;">Projects
-                        <hr style="background-color: #ec971f; height:1.4px; margin-top:6px; padding:0px; width:125px;">
-                    </h1>
-                </div>
+        <div class="templatemo_banner_02">
+            <div>
+                <h1 style="text-align:center; font-weight:bold; color: white;">Projects
+                    <hr style="background-color: #ec971f; height:1.4px; margin-top:6px; padding:0px; width:125px;">
+                </h1>
             </div>
+        </div>
     </div>
 
-    <div id="templatemo_mobile_menu">
-        <ul class="nav nav-pills nav-stacked">
-            <li><a  rel="nofollow"  href="./index.html" class="external-link"><i
-                        class="glyphicon glyphicon-home"></i> &nbsp; Home</a></li>
-            <li><a  rel="nofollow"  href="./about.html" class="external-link"><i
-                        class="glyphicon glyphicon-briefcase"></i> &nbsp; About</a></li>
-            <li><a  rel="nofollow"  href="./project.html" class="external-link"><i
-                        class="glyphicon glyphicon-bullhorn"></i> &nbsp; Projects</a></li>
-            <li><a  rel="nofollow"  href="./clients.html" class="external-link"><i
-                        class="glyphicon glyphicon-calendar"></i> &nbsp; Clients</a></li>
-            <li><a  rel="nofollow"  href="./contact.html" class="external-link"><i
-                        class="glyphicon glyphicon-phone-alt"></i> &nbsp; Contact</a></li>
-            
-            
-        </ul>
-    </div>
-    <div class="container_wapper">
-        <div id="templatemo_banner_menu">
-            <div class="container-fluid">
-                <div class="col-xs-4 templatemo_logo">
-                    <a href="#">
-                        <img src="images/templatemo_logo.png" id="logo_img" alt="dragonfruit website template"
-                            title="Dragonfruit Template" />
-                        <h1 id="logo_text">VP<span>Software</span></h1>
-                    </a>
-                </div>
-                <div class="col-sm-8 hidden-xs">
-                    <ul class="nav nav-justified">
-                        <li><a  rel="nofollow"  href="./index.html" class="external-link"><i
-                            class="glyphicon glyphicon-home"></i> &nbsp; Home</a></li>
-                        <li><a  rel="nofollow"  href="./about.html" class="external-link"><i
+    <div>
+        <div id="templatemo_mobile_menu">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a rel="nofollow" href="./index.html" class="external-link"><i class="glyphicon glyphicon-home"></i>
+                        &nbsp; Home</a></li>
+                <li><a rel="nofollow" href="./about.html" class="external-link"><i
                             class="glyphicon glyphicon-briefcase"></i> &nbsp; About</a></li>
-                        <li><a  rel="nofollow"  href="./project.html" class="external-link"><i
-                            class="glyphicon glyphicon-bullhorn"></i> &nbsp; Projects</a></li>
-                        <li><a  rel="nofollow"  href="./clients.html" class="external-link"><i
+                <li><a rel="nofollow" href="./project.html" class="external-link"><i
+                            class="glyphicon glyphicon-bullhorn"></i> &nbsp; Projects </a>
+                    <div style="position: absolute;
+                            z-index: 1000;
+                            background: white;
+                            margin-left: 36%;
+                            width: 100%;
+                            padding: 5%;" class="dropdown">
+                        <ul class="nav">
+                            <li style="padding: 5%;font-size: 17px;cursor: pointer;" class="child-dropdown"><i
+                                    class="glyphicon glyphicon-bullhorn"></i> &nbsp;Projects</li>
+                            <li style="padding: 5%;font-size: 17px;cursor: pointer;" class="child-dropdown"><i
+                                    class="glyphicon glyphicon-bullhorn"></i> &nbsp;Current Projects</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a rel="nofollow" href="./clients.html" class="external-link"><i
                             class="glyphicon glyphicon-calendar"></i> &nbsp; Clients</a></li>
-                        <li><a  rel="nofollow"  href="./contact.html" class="external-link"><i
+                <li><a rel="nofollow" href="./contact.html" class="external-link"><i
                             class="glyphicon glyphicon-phone-alt"></i> &nbsp; Contact</a></li>
-                
-                    </ul>
-                </div>
-                <div class="col-xs-8 visible-xs">
-                    <a href="#" id="mobile_menu"><span class="glyphicon glyphicon-th-list"></span></a>
+
+
+            </ul>
+        </div>
+        <div class="container_wapper">
+            <div id="templatemo_banner_menu">
+                <div class="container-fluid">
+                    <div class="col-xs-4 templatemo_logo">
+                        <a href="#">
+                            <img src="images/templatemo_logo.png" id="logo_img" alt="dragonfruit website template"
+                                title="Dragonfruit Template" />
+                            <h1 id="logo_text" style="margin-bottom: 0;font-size: 20px;
+                            margin-top: 30px;
+                            padding-left: 0;">VP<span>Software</span></h1>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 hidden-xs">
+                        <ul class="nav nav-justified">
+                            <li><a rel="nofollow" href="./index.html" class="external-link"><i
+                                        class="glyphicon glyphicon-home"></i> &nbsp; Home</a></li>
+                            <li><a rel="nofollow" href="./about.html" class="external-link"><i
+                                        class="glyphicon glyphicon-briefcase"></i> &nbsp; About</a></li>
+                            <li class="project-dropdown"><a rel="nofollow" href="./project.html"
+                                    class="external-link "><i class="glyphicon glyphicon-bullhorn"></i> &nbsp;
+                                    Projects</a>
+                                <div style="position: absolute;
+                                        z-index: 1000;
+                                        background: white;
+                                        margin-left: 36%;
+                                        width: 112%;" class="dropdown">
+                                    <ul class="nav">
+                                        <li style="padding: 0 5px 0 5px;;font-size: 17px;cursor: pointer;" class="child-dropdown">
+                                            <a rel="nofollow" href="./project.html"
+                                    class="external-link "><i class="glyphicon glyphicon-bullhorn"></i> &nbsp;Projects</a></li>
+                                        <li style="padding: 0 5px 0 5px;;font-size: 17px;cursor: pointer;" class="child-dropdown">
+                                            <a rel="nofollow" href="./currentProject.html"
+                                    class="external-link "><i class="glyphicon glyphicon-bullhorn"></i> &nbsp;Current Projects</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a rel="nofollow" href="./clients.html" class="external-link"><i
+                                        class="glyphicon glyphicon-calendar"></i> &nbsp; Clients</a></li>
+                            <li><a rel="nofollow" href="./contact.html" class="external-link"><i
+                                        class="glyphicon glyphicon-phone-alt"></i> &nbsp; Contact</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-8 visible-xs">
+                        <a href="#" id="mobile_menu"><span class="glyphicon glyphicon-th-list"></span></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -394,7 +430,15 @@
                         <span class="glyphicon glyphicon-bookmark"></span> <a
                             href="https://en.wikipedia.org/wiki/Know_your_customer">More info</a> &nbsp;&nbsp;
                     </p>
-                    <p>The Land Records Digitization is aimed to modernize management of land records, minimize scope of land/property disputes, enhance transparency in the land records maintenance system, and facilitate moving eventually towards guaranteed conclusive titles to immovable properties in the country. The major components of the programme are computerization of all land records including mutations, digitization of maps and integration of textual and spatial data, survey/re-survey and updation of all survey and settlement records including creation of original cadastral records wherever necessary, computerization of registration and its integration with the land records maintenance system, development of core Geospatial Information System (GIS) and capacity building.</p>
+                    <p>The Land Records Digitization is aimed to modernize management of land records, minimize scope of
+                        land/property disputes, enhance transparency in the land records maintenance system, and
+                        facilitate moving eventually towards guaranteed conclusive titles to immovable properties in the
+                        country. The major components of the programme are computerization of all land records including
+                        mutations, digitization of maps and integration of textual and spatial data, survey/re-survey
+                        and updation of all survey and settlement records including creation of original cadastral
+                        records wherever necessary, computerization of registration and its integration with the land
+                        records maintenance system, development of core Geospatial Information System (GIS) and capacity
+                        building.</p>
                 </div>
             </div>
             <div class="time_line_wap">
@@ -408,14 +452,56 @@
                         <span class="glyphicon glyphicon-bookmark"></span> <a
                             href="https://en.wikipedia.org/wiki/Know_your_customer">More info</a> &nbsp;&nbsp;
                     </p>
-                    <p>Digital banking circumscribes composite services delivered over the Web, which aim at serving both banks and consumers as a means of providing a convenient, faster and better experience than traditional banking. The shift from traditional and digital banking is gradual and should be rather described in degrees of service digitization than through a categorization into yes and no. It involves high levels of process automation and web-based services and may include APIs enabling cross-institutional service composition to deliver banking products and provide transactions. It provides the ability for users to access financial data through desktops, mobile devices and ATM machines.</p>
+                    <p>Digital banking circumscribes composite services delivered over the Web, which aim at serving
+                        both banks and consumers as a means of providing a convenient, faster and better experience than
+                        traditional banking. The shift from traditional and digital banking is gradual and should be
+                        rather described in degrees of service digitization than through a categorization into yes and
+                        no. It involves high levels of process automation and web-based services and may include APIs
+                        enabling cross-institutional service composition to deliver banking products and provide
+                        transactions. It provides the ability for users to access financial data through desktops,
+                        mobile devices and ATM machines.</p>
                 </div>
             </div>
         </div>
     </div>
     <div id="templatemo_footer">
-        <div>
-            <p id="footer">Copyright &copy; 2084 Company Name</p>
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Careers</h3>
+                            <ul>
+                                <li><a href="#">Job openings</a></li>
+                                <li><a href="#">Employee success</a></li>
+                                <li><a href="#">Benefits</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                                href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                                    class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                    class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Company Name © 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>

@@ -23,6 +23,8 @@
     <link href="css/camera.css" rel="stylesheet">
     <!-- Template  -->
     <link href="css/templatemo_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +42,21 @@
                 <li><a rel="nofollow" href="./about.html" class="external-link"><i
                             class="glyphicon glyphicon-briefcase"></i> &nbsp; About</a></li>
                 <li><a rel="nofollow" href="./project.html" class="external-link"><i
-                            class="glyphicon glyphicon-bullhorn"></i> &nbsp; Projects</a></li>
+                            class="glyphicon glyphicon-bullhorn"></i> &nbsp; Projects </a>
+                    <div style="position: absolute;
+                            z-index: 1000;
+                            background: white;
+                            margin-left: 36%;
+                            width: 100%;
+                            padding: 5%;" class="dropdown">
+                        <ul class="nav">
+                            <li style="padding: 5%;font-size: 17px;cursor: pointer;" class="child-dropdown"><i
+                                    class="glyphicon glyphicon-bullhorn"></i> &nbsp;Projects</li>
+                            <li style="padding: 5%;font-size: 17px;cursor: pointer;" class="child-dropdown"><i
+                                    class="glyphicon glyphicon-bullhorn"></i> &nbsp;Current Projects</li>
+                        </ul>
+                    </div>
+                </li>
                 <li><a rel="nofollow" href="./clients.html" class="external-link"><i
                             class="glyphicon glyphicon-calendar"></i> &nbsp; Clients</a></li>
                 <li><a rel="nofollow" href="./contact.html" class="external-link"><i
@@ -67,8 +83,24 @@
                                         class="glyphicon glyphicon-home"></i> &nbsp; Home</a></li>
                             <li><a rel="nofollow" href="./about.html" class="external-link"><i
                                         class="glyphicon glyphicon-briefcase"></i> &nbsp; About</a></li>
-                            <li><a rel="nofollow" href="./project.html" class="external-link"><i
-                                        class="glyphicon glyphicon-bullhorn"></i> &nbsp; Projects</a></li>
+                            <li class="project-dropdown"><a rel="nofollow" href="./project.html"
+                                    class="external-link "><i class="glyphicon glyphicon-bullhorn"></i> &nbsp;
+                                    Projects</a>
+                                <div style="position: absolute;
+                                        z-index: 1000;
+                                        background: white;
+                                        margin-left: 36%;
+                                        width: 112%;" class="dropdown">
+                                    <ul class="nav">
+                                        <li style="padding: 0 5px 0 5px;;font-size: 17px;cursor: pointer;" class="child-dropdown">
+                                            <a rel="nofollow" href="./project.html"
+                                    class="external-link "><i class="glyphicon glyphicon-bullhorn"></i> &nbsp;Projects</a></li>
+                                        <li style="padding: 0 5px 0 5px;;font-size: 17px;cursor: pointer;" class="child-dropdown">
+                                            <a rel="nofollow" href="./currentProject.html"
+                                    class="external-link "><i class="glyphicon glyphicon-bullhorn"></i> &nbsp;Current Projects</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li><a rel="nofollow" href="./clients.html" class="external-link"><i
                                         class="glyphicon glyphicon-calendar"></i> &nbsp; Clients</a></li>
                             <li><a rel="nofollow" href="./contact.html" class="external-link"><i
@@ -195,8 +227,43 @@
         </div>
     </div>
     <div id="templatemo_footer">
-        <div>
-            <p id="footer">Copyright &copy; 2084 Company Name</p>
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="./about.html">Web design</a></li>
+                                <li><a href="./about.html">Development</a></li>
+                                <li><a href="./about.html">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="./about.html">Company</a></li>
+                                <li><a href="./bod.html">Team</a></li>
+                                <li><a href="./bod.html">Legacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Careers</h3>
+                            <ul>
+                                <li><a href="./career.html">Job openings</a></li>
+                                <li><a href="#">Employee success</a></li>
+                                <li><a href="#">Benefits</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                                href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                                    class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                    class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Company Name © 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
