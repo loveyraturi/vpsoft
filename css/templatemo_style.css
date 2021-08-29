@@ -2,6 +2,59 @@
 Dragonfruit Template 
 http://www.templatemo.com/preview/templatemo_411_dragonfruit 
 */
+div ul li p h1 h2 h3 h4{
+    font-family: monospace !important;
+}
+.external-link{
+    font-size: 16px;
+    font-family: monospace;
+    
+}
+.contact-menu{
+    font-size: 16px;
+    font-family: monospace;
+    padding-top: 9%;
+    margin-bottom: 3%;
+    height: 43px;
+    border-radius: 10px;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 54%);
+}
+.contact-menu:hover{
+    font-size: 16px;
+    font-family: monospace;
+    padding-top: 9%;
+    margin-bottom: 3%;
+    height: 43px;
+    border-radius: 10px;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 54%);
+}
+.external-link:hover{
+    background: none !important;
+    color: rgb(26, 115, 232,.8) !important;
+}
+.child:hover{
+    color: white !important;
+}
+.nav:hover{
+    color: white !important;
+}
+.child-dropdown:hover{
+    background: rgb(26, 115, 232,.8) !important;
+    color: white !important;
+}
+.menu-align{
+    width: 104px !important;
+    font-size: 16px;
+    font-family: monospace;
+  }
+.menu-align-service{
+    width: 104px !important;
+    font-size: 16px;
+    font-family: monospace;
+    white-space: nowrap;
+}
 li{
     text-decoration: none;
 }
@@ -10,8 +63,9 @@ a {
 }
 .footer-clean {
     padding:50px 0;
-    background-color: #447693;
-    color:white;
+    background: linear-gradient( 
+90deg
+ , rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 111%);    color:white;
   }
   
   .footer-clean h3 {
@@ -107,13 +161,14 @@ a {
 .feeds{
     width: 27%;
     border: 1px solid black;
-    margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .feed-title{
-    background: #447693;
-    padding-top: 1px;
+    background: linear-gradient(
+90deg
+, rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 54%);    padding-top: 1px;
 }
 .feed-content{
     color: black;
@@ -205,14 +260,14 @@ h1 {
     color: #000;
 }
 #templatemo_mobile_menu ul li:hover a {
-    background: #c83233;
+    background: #f15556;
 	color: #fff;
 }
 #templatemo_banner_menu {
     width: 100%;
     background: #f9f9f9;
     /* height: 94px; */
-    border-bottom: 1px solid #f15556;
+    border-bottom: 1px solid black;
     position: fixed;
     top: 0;
     z-index: 5000;
@@ -229,15 +284,15 @@ h1 {
     color: #e35354;
 }
 #templatemo_banner_menu #logo_text span {
-    color: #9fb038;
+    color: rgba(26,100,221,1);
 }
 #templatemo_banner_menu ul li a ,
 #templatemo_banner_menu ul li a:focus {
     padding-top: 18px;
     padding-bottom: 24px;
-    font: normal normal normal 18px/23px 'Century Gothic', sans-serif;
+    /* font: normal normal normal 18px/23px 'Century Gothic', sans-serif; */
     color: #000;
-    background: repeat-x url("../images/banner_bg.jpg") 0 -94px ;
+    /* background: repeat-x url("../images/banner_bg.jpg") 0 -94px ; */
     transition-duration: .5s;
 }
 #templatemo_banner_menu ul li a:hover ,
@@ -290,14 +345,16 @@ h1 {
 .banner div.slide_caption h1 {
     font-size: 60px;
     margin: 0;
-    color: #e35354;
+    color: rgba(0,212,255,1);
     font-weight: 600;
 }
 .dropdown{
     visibility: hidden;
+    display: none;
 }
 .dropdown:hover{
     visibility: visible;
+    display: block;
     /* background-position: 0 0px;
     background-color: #f15556;
     color: #ffffff; */
@@ -309,6 +366,7 @@ h1 {
 }
 .project-dropdown:hover .dropdown{
     visibility: visible;
+    display: block;
 }
 .banner div.slide_caption p {
     font-size: 35px;
@@ -331,7 +389,11 @@ h1 {
     background-size: cover;
 }
 .templatemo_banner_slide_04 {
-    background: url('../images/slider/s4.jpg');
+    background: url('../images/slider/banner1.jpg');
+    background-size: cover;
+}
+.templatemo_banner_slide_05{
+    background: url('../images/slider/ss2.jpg');
     background-size: cover;
 }
 /*about our organization*/
