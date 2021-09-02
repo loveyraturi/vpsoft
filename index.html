@@ -1,361 +1,1434 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-US"
+    class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
 
 <head>
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 
-    Dragonfruit Template 
-    http://www.templatemo.com/preview/templatemo_411_dragonfruit 
-    -->
-    <title>VP Software</title>
-    <meta name="description" content="" />
-    <!-- templatemo 411 dragonfruit -->
-    <meta name="author" content="templatemo">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="images/templatemo_logo.png" />
-    <!-- Font Awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Camera -->
-    <link href="css/camera.css" rel="stylesheet">
-    <!-- Template  -->
-    <link href="css/templatemo_style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>VP Softwares</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" type="application/rss+xml" title="VP Softwares. » Feed" href="https://agarwalurs.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="VP Softwares. » Comments Feed"
+        href="https://agarwalurs.com/comments/feed/">
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/agarwalurs.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.4" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sfm-fontawesome-css" href="css/all.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sfm-eleganticons-css" href="css/eleganticons.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sfm-essential-icon-css" href="css/essential-icon.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sfm-iconfont-css" href="css/icofont.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sfm-materialdesignicons-css" href="css/materialdesignicons.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="sfm-style-css" href="css/style.css" type="text/css" media="all">
+    <style id="sfm-style-inline-css" type="text/css">
+        .sfm-floating-menu a.sfm-shape-button {
+            height: 50px;
+            width: 50px
+        }
+
+        .sfm-floating-menu a.sfm-shape-button {
+            font-size: 16px
+        }
+
+        .sfm-floating-menu i {
+            top: 0px
+        }
+
+        .sfm-floating-menu.horizontal {
+            margin: 0 -2.5px
+        }
+
+        .sfm-floating-menu.vertical {
+            margin: -2.5px 0
+        }
+
+        .sfm-floating-menu.horizontal .sfm-button {
+            margin: 0 2.5px
+        }
+
+        .sfm-floating-menu.vertical .sfm-button {
+            margin: 2.5px 0
+        }
+
+        .sfm-floating-menu.top-left,
+        .sfm-floating-menu.top-right,
+        .sfm-floating-menu.top-middle {
+            top: 0px
+        }
+
+        .sfm-floating-menu.bottom-left,
+        .sfm-floating-menu.bottom-right,
+        .sfm-floating-menu.bottom-middle {
+            bottom: 0px
+        }
+
+        .sfm-floating-menu.top-left,
+        .sfm-floating-menu.bottom-left,
+        .sfm-floating-menu.middle-left {
+            left: 0px
+        }
+
+        .sfm-floating-menu.top-right,
+        .sfm-floating-menu.bottom-right,
+        .sfm-floating-menu.middle-right {
+            right: 0px
+        }
+
+        .sfm-floating-menu {
+            z-index: 9
+        }
+
+        .sfm-floating-menu .sfm-612c88cd2d76f a.sfm-shape-button {
+            background: #000000
+        }
+
+        .sfm-floating-menu .sfm-612c88cd2d76f a.sfm-shape-button {
+            color: #FFFFFF
+        }
+
+        .sfm-floating-menu .sfm-612c88cd2d76f:hover a.sfm-shape-button {
+            background: #000000
+        }
+
+        .sfm-floating-menu .sfm-612c88cd2d76f:hover a.sfm-shape-button {
+            color: #FFFFFF
+        }
+
+        .sfm-floating-menu .sfm-612c88cd2d76f .sfm-tool-tip {
+            background: #000000
+        }
+
+        .sfm-floating-menu.top-left.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.top-middle.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.top-right.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after {
+            border-color: transparent transparent #000000 transparent
+        }
+
+        .sfm-floating-menu.top-left.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.top-middle.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.bottom-left.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.bottom-middle.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.middle-left.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after {
+            border-color: transparent #000000 transparent transparent
+        }
+
+        .sfm-floating-menu.top-right.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.middle-right.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.bottom-right.vertical .sfm-612c88cd2d76f .sfm-tool-tip:after {
+            border-color: transparent transparent transparent #000000
+        }
+
+        .sfm-floating-menu.bottom-left.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.bottom-middle.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.bottom-right.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.middle-left.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after,
+        .sfm-floating-menu.middle-right.horizontal .sfm-612c88cd2d76f .sfm-tool-tip:after {
+            border-color: #000000 transparent transparent transparent
+        }
+
+        .sfm-floating-menu .sfm-612c88cd2d76f .sfm-tool-tip a {
+            color: #FFFFFF
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            font-family: Open Sans
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            font-weight: 400;
+            font-style: normal
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            text-transform: none
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            text-decoration: none
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            font-size: 16px
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            line-height: 1
+        }
+
+        .sfm-floating-menu .sfm-tool-tip a {
+            letter-spacing: 0px
+        }
+    </style>
+    <link rel="stylesheet" id="sfm-fonts-css"
+        href="//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%2C800%2C800i&amp;subset=latin%2Clatin-ext&amp;ver=1.00"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="megamenu-css" href="css/maxmegamenu/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="dashicons-css" href="css/dashicons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="squarepress-parent-style-css" href="css/square/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="squarepress-style-css" href="css/squarepress/style.css" type="text/css" media="all">
+    <style id="squarepress-style-inline-css" type="text/css">
+        body .sq-top-header,
+        body .sq-tab li.sq-active,
+        body .sq-testimonial-slider.owl-carousel button.owl-dot,
+        body .sq-testimonial-slider.owl-carousel button.owl-dot.active,
+        body .sq-testimonial-slider.owl-carousel button.owl-dot:hover,
+        body .sq-featured-post.theme-colored-box {
+            background: #2961ae
+        }
+
+        #sq-tab-section {
+            background-image: url(http://127.0.0.1/aurs/wp-content/uploads/2020/11/kuala-lumpur-170985_1920.jpg)
+        }
+
+        #sq-testimonial-section {
+            background-image: url(http://127.0.0.1/aurs/wp-content/uploads/2020/11/banner-image.jpg)
+        }
+
+        .menu-projects {
+            display: inline-grid;
+        }
+
+        #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item>ul.mega-sub-menu {
+            display: inline-grid !important;
+            visibility: hidden;
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-megamenu>ul.mega-sub-menu>li.mega-menu-item>a.mega-menu-link,
+        #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-megamenu>ul.mega-sub-menu li.mega-menu-column>ul.mega-sub-menu>li.mega-menu-item>a.mega-menu-link {
+            white-space: nowrap;
+        }
+
+        .mega-menu-link:hover {
+            Color: blue;
+        }
+
+        .sq-tab-content h2 {
+            text-align: center;
+        }
+
+        .wp-block-columns {
+            margin-left: 17%;
+        }
+
+        @media screen and (max-width:900px) {
+            #sq-site-navigation {
+                border-color: #2961ae
+            }
+        }
+    </style>
+    <link rel="stylesheet" id="squarepress-fonts-css"
+        href="//fonts.googleapis.com/css?family=Poppins%3A300%2C300i%2C400%2C400i%2C500%2C700%2C700i%7CKarla&amp;subset=latin%2Clatin-ext"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="square-fonts-css"
+        href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700%7CRoboto+Condensed%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700&amp;subset=latin%2Clatin-ext"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="animate-css" href="css/animate.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" id="owl-carousel-css" href="css/owl.carousel.css" type="text/css" media="all">
+    <link rel="stylesheet" id="square-style-css" href="css/squarepress/style.css" type="text/css" media="all">
+    <style id="square-style-inline-css" type="text/css">
+        button,
+        input[type='button'],
+        input[type='reset'],
+        input[type='submit'],
+        .sq-main-navigation ul ul li:hover>a,
+        #sq-home-slider-section .owl-carousel .owl-nav button.owl-prev,
+        #sq-home-slider-section .owl-carousel .owl-nav button.owl-next,
+        .sq-featured-post h4:after,
+        .sq-section-title:after,
+        .sq-tab li.sq-active:after,
+        #sq-colophon h5.widget-title:after,
+        .widget-area .widget-title:before,
+        .widget-area .widget-title:after,
+        .square-share-buttons a:hover,
+        h3#reply-title:after,
+        h3.comments-title:after,
+        .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+        .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+        .woocommerce div.product .woocommerce-tabs ul.tabs li.active:after,
+        .woocommerce #respond input#submit,
+        .woocommerce table.shop_table thead,
+        .woocommerce ul.products li.product .button.add_to_cart_button,
+        .woocommerce a.added_to_cart,
+        .woocommerce a.button,
+        .woocommerce button.button,
+        .woocommerce input.button,
+        .woocommerce ul.products li.product:hover .button,
+        .woocommerce #respond input#submit.alt,
+        .woocommerce a.button.alt,
+        .woocommerce button.button.alt,
+        .woocommerce input.button.alt,
+        .woocommerce span.onsale,
+        .woocommerce #respond input#submit.disabled,
+        .woocommerce #respond input#submit:disabled,
+        .woocommerce #respond input#submit:disabled[disabled],
+        .woocommerce a.button.disabled,
+        .woocommerce a.button:disabled,
+        .woocommerce a.button:disabled[disabled],
+        .woocommerce button.button.disabled,
+        .woocommerce button.button:disabled,
+        .woocommerce button.button:disabled[disabled],
+        .woocommerce input.button.disabled,
+        .woocommerce input.button:disabled,
+        .woocommerce input.button:disabled[disabled],
+        .woocommerce #respond input#submit.alt.disabled,
+        .woocommerce #respond input#submit.alt.disabled:hover,
+        .woocommerce #respond input#submit.alt:disabled,
+        .woocommerce #respond input#submit.alt:disabled:hover,
+        .woocommerce #respond input#submit.alt:disabled[disabled],
+        .woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+        .woocommerce a.button.alt.disabled,
+        .woocommerce a.button.alt.disabled:hover,
+        .woocommerce a.button.alt:disabled,
+        .woocommerce a.button.alt:disabled:hover,
+        .woocommerce a.button.alt:disabled[disabled],
+        .woocommerce a.button.alt:disabled[disabled]:hover,
+        .woocommerce button.button.alt.disabled,
+        .woocommerce button.button.alt.disabled:hover,
+        .woocommerce button.button.alt:disabled,
+        .woocommerce button.button.alt:disabled:hover,
+        .woocommerce button.button.alt:disabled[disabled],
+        .woocommerce button.button.alt:disabled[disabled]:hover,
+        .woocommerce input.button.alt.disabled,
+        .woocommerce input.button.alt.disabled:hover,
+        .woocommerce input.button.alt:disabled,
+        .woocommerce input.button.alt:disabled:hover,
+        .woocommerce input.button.alt:disabled[disabled],
+        .woocommerce input.button.alt:disabled[disabled]:hover,
+        .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+        .woocommerce-MyAccount-navigation-link a {
+            background: #2961ae;
+        }
+
+        a,
+        .sq-featured-post .sq-featured-readmore:hover,
+        .sq-tab li.sq-active .fa,
+        .widget-area a:hover,
+        .woocommerce nav.woocommerce-pagination ul li a:focus,
+        .woocommerce nav.woocommerce-pagination ul li a:hover,
+        .woocommerce nav.woocommerce-pagination ul li span.current,
+        .pagination a:hover,
+        .pagination span,
+        .woocommerce ul.products li.product .price,
+        .woocommerce div.product p.price,
+        .woocommerce div.product span.price,
+        .woocommerce .product_meta a:hover,
+        .woocommerce-error:before,
+        .woocommerce-info:before,
+        .woocommerce-message:before,
+        .entry-meta a:hover,
+        .entry-footer a:hover {
+            color: #2961ae;
+        }
+
+        .comment-list a:hover {
+            color: #2961ae !important;
+        }
+
+        .sq-slide-caption,
+        .square-share-buttons a:hover,
+        .woocommerce ul.products li.product:hover,
+        .woocommerce-page ul.products li.product:hover,
+        .woocommerce #respond input#submit,
+        .sq-woo-title-price,
+        .woocommerce nav.woocommerce-pagination ul li a:focus,
+        .woocommerce nav.woocommerce-pagination ul li a:hover,
+        .woocommerce nav.woocommerce-pagination ul li span.current,
+        .pagination a:hover,
+        .pagination span,
+        .woocommerce a.button,
+        .woocommerce button.button,
+        .woocommerce input.button,
+        .woocommerce ul.products li.product:hover .button,
+        .woocommerce #respond input#submit.alt,
+        .woocommerce a.button.alt,
+        .woocommerce button.button.alt,
+        .woocommerce input.button.alt,
+        .woocommerce #respond input#submit.alt.disabled,
+        .woocommerce #respond input#submit.alt.disabled:hover,
+        .woocommerce #respond input#submit.alt:disabled,
+        .woocommerce #respond input#submit.alt:disabled:hover,
+        .woocommerce #respond input#submit.alt:disabled[disabled],
+        .woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+        .woocommerce a.button.alt.disabled,
+        .woocommerce a.button.alt.disabled:hover,
+        .woocommerce a.button.alt:disabled,
+        .woocommerce a.button.alt:disabled:hover,
+        .woocommerce a.button.alt:disabled[disabled],
+        .woocommerce a.button.alt:disabled[disabled]:hover,
+        .woocommerce button.button.alt.disabled,
+        .woocommerce button.button.alt.disabled:hover,
+        .woocommerce button.button.alt:disabled,
+        .woocommerce button.button.alt:disabled:hover,
+        .woocommerce button.button.alt:disabled[disabled],
+        .woocommerce button.button.alt:disabled[disabled]:hover,
+        .woocommerce input.button.alt.disabled,
+        .woocommerce input.button.alt.disabled:hover,
+        .woocommerce input.button.alt:disabled,
+        .woocommerce input.button.alt:disabled:hover,
+        .woocommerce input.button.alt:disabled[disabled],
+        .woocommerce input.button.alt:disabled[disabled]:hover {
+            border-color: #2961ae;
+        }
+
+        .woocommerce-error,
+        .woocommerce-info,
+        .woocommerce-message {
+            border-top-color: #2961ae;
+        }
+
+        #sq-home-slider-section .owl-carousel .owl-nav button.owl-prev:hover,
+        #sq-home-slider-section .owl-carousel .owl-nav button.owl-next:hover,
+        .woocommerce #respond input#submit:hover,
+        .woocommerce a.button:hover,
+        .woocommerce button.button:hover,
+        .woocommerce input.button:hover,
+        .woocommerce #respond input#submit.alt:hover,
+        .woocommerce a.button.alt:hover,
+        .woocommerce button.button.alt:hover,
+        .woocommerce input.button.alt:hover,
+        .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+            background: #25579d;
+        }
+
+        .woocommerce ul.products li.product .onsale:after {
+            border-color: transparent transparent #25579d #25579d;
+        }
+
+        .woocommerce span.onsale:after {
+            border-color: transparent #25579d #25579d transparent
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="https://agarwalurs.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://agarwalurs.com/wp-json/wp/v2/pages/18">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://agarwalurs.com/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://agarwalurs.com/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.6.4">
+    <link rel="canonical" href="https://agarwalurs.com/">
+    <link rel="shortlink" href="https://agarwalurs.com/">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://agarwalurs.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fagarwalurs.com%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://agarwalurs.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fagarwalurs.com%2F&amp;format=xml">
+    <style>
+        .sq-main-header {
+            background-image: url(https://agarwalurs.com/wp-content/themes/square/images/bg.jpg)
+        }
+    </style>
+    <link rel="icon" href="https://agarwalurs.com/wp-content/uploads/2020/12/cropped-Logo1-32x32.jpg" sizes="32x32">
+    <link rel="icon" href="https://agarwalurs.com/wp-content/uploads/2020/12/cropped-Logo1-192x192.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://agarwalurs.com/wp-content/uploads/2020/12/cropped-Logo1-180x180.jpg">
+    <meta name="msapplication-TileImage"
+        content="https://agarwalurs.com/wp-content/uploads/2020/12/cropped-Logo1-270x270.jpg">
+    <style type="text/css">
+        /** Mega Menu CSS: fs **/
+    </style>
 </head>
 
-<body>
-    <div>
-        <div class="container_wapper">
-            <div id="templatemo_banner_menu">
-                <div class="container-fluid" style="     margin-right: 0;
-                margin-left: 0; 
-                padding-left: 0; 
-                padding-right: 0;">
-                    <div class="col-xs-7 templatemo_logo" style="height: 65px;">
-                        <a style="font-family: monospace;" href="#">
-                            <img src="images/templatemo_logo.png" id="logo_img" alt="dragonfruit website template"
-                                title="Dragonfruit Template" />
-                            <h1 id="logo_text" style="font-family: monospace;margin-bottom: 0;font-size: 20px;
-                            margin-top: 30px;
-                            padding-left: 0;">VP<span>Software</span></h1>
-                        </a>
+<body
+    class="home page-template page-template-templates page-template-home-template page-template-templateshome-template-php page page-id-18 wp-custom-logo mega-menu-primary sq_right_sidebar">
+    <div id="sq-page">
+        <a class="skip-link screen-reader-text" href="#sq-content">Skip to content</a>
+        <header id="sq-masthead" class="sq-site-header sq-white">
+
+            <div class="sq-top-header">
+                <div class="sq-container ">
+                    <div class="sq-top-left-header">
+                        VP Software
                     </div>
-                    <div class="col-sm-5 hidden-xs">
-                        <ul class="nav nav-justified">
-                            <li class="menu-align"><a style="font-family: monospace;" rel="nofollow" href="./index.html"
-                                    class="external-link"> Home</a>
-                            </li>
-                            <li class="project-dropdown menu-align"><a style="font-family: monospace;" rel="nofollow"
-                                    href="./about.html" class="external-link"> About</a>
-                                <div style="position: absolute;
-                                        z-index: 1000;
-                                        background: white;
-                                        margin-left: 25%;
-                                        width: 220%;" class="dropdown">
-                                    <ul class="nav">
-                                        <li style="white-space:nowrap;padding: 0 5px 0 5px;;font-size: 17px;cursor: pointer;"
-                                            class="child-dropdown">
-                                            <a rel="nofollow" href="./bod.html" class="external-link child"
-                                                style="font-family: monospace;white-space:nowrap;padding-top: 4px;padding-bottom: 8px;">Board
-                                                Members</a>
+
+                    <div class="sq-top-right-header">
+                        <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a
+                            href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-youtube"></i></a><a
+                            href="#"><i class="fa fa-pinterest"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sq-header">
+                <div class="sq-container">
+                    <div id="sq-site-branding">
+                        <a href="./index.html" class="custom-logo-link" rel="home"><img width="512" height="50"
+                                src="images/log.png" class="custom-logo" alt="" loading="lazy"
+                                srcset="images/log.png 512w, images/log.png 300w"
+                                sizes="(max-width: 512px) 100vw, 512px"></a>
+                    </div><!-- .site-branding -->
+                    <a href="#" class="sq-toggle-nav">
+                        <span></span>
+                    </a>
+
+                    <nav id="sq-site-navigation" class="sq-main-navigation">
+                        <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+                            <div class="mega-menu-toggle mega-menu-open">
+                                <div class="mega-toggle-blocks-left"></div>
+                                <div class="mega-toggle-blocks-center"></div>
+                                <div class="mega-toggle-blocks-right">
+                                    <div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0"
+                                        id="mega-toggle-block-0"><button aria-label="Toggle Menu"
+                                            class="mega-toggle-animated mega-toggle-animated-slider" type="button"
+                                            aria-expanded="false">
+                                            <span class="mega-toggle-animated-box">
+                                                <span class="mega-toggle-animated-inner"></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal"
+                                data-event="hover_intent" data-effect="fade" data-effect-speed="200"
+                                data-effect-mobile="disabled" data-effect-speed-mobile="0"
+                                data-mobile-force-width="false" data-second-click="go" data-document-click="collapse"
+                                data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true"
+                                data-mobile-state="collapse_all" data-hover-intent-timeout="300"
+                                data-hover-intent-interval="100">
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-979"
+                                    id="mega-menu-item-979">
+                                    <a class="mega-menu-link" href="./index.html" tabindex="0">Home</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-785"
+                                    id="mega-menu-item-785">
+                                    <a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false"
+                                        tabindex="0">Teams<span class="mega-indicator"
+                                            data-has-click-event="true"></span>
+                                    </a>
+                                    <ul class="mega-sub-menu">
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-2 mega-menu-item-795"
+                                            id="mega-menu-item-795"><a class="mega-menu-link" href="#">Board
+                                                Members<span class="mega-indicator"
+                                                    data-has-click-event="true"></span></a>
+                                            <ul class="mega-sub-menu">
+                                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-801"
+                                                    id="mega-menu-item-801"><a class="mega-menu-link"
+                                                        href="./user2.html">Mahesh Kumar Agarwal</a></li>
+                                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-802"
+                                                    id="mega-menu-item-802"><a class="mega-menu-link"
+                                                        href="./user3.html">Sharad Upadhyay</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-2 mega-menu-item-794"
+                                            id="mega-menu-item-794"><a class="mega-menu-link" href="#">Team Members<span
+                                                    class="mega-indicator" data-has-click-event="true"></span></a>
+                                            <ul class="mega-sub-menu">
+                                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-798"
+                                                    id="mega-menu-item-798"><a class="mega-menu-link"
+                                                        href="./user1.html">Ripusudan Mishra</a></li>
+                                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-797"
+                                                    id="mega-menu-item-797"><a class="mega-menu-link"
+                                                        href="./user4.html">Javed Ahamad</a></li>
+                                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-797"
+                                                    id="mega-menu-item-797"><a class="mega-menu-link"
+                                                        href="./user5.html">Sumit Kumar</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
-                                </div>
-                            </li>
-                            <li class="project-dropdown menu-align-service"><a style="font-family: monospace;"
-                                    rel="nofollow"  class="external-link"> Our Services</a>
-                                <div style="position: absolute;
-                                        z-index: 1000;
-                                        background: white;
-                                        margin-left: 36%;
-                                        width: 187%;" class="dropdown">
-                                    <ul class="nav">
-                                        <li style="padding: 0 5px 0 5px;font-size: 17px;cursor: pointer;"
-                                            class="child-dropdown">
-                                            <a rel="nofollow" href="./dt.html" class="external-link child " style="font-family: monospace;white-space:nowrap;padding-top: 4px;padding-bottom: 8px;
-                                                ">Digital Transformation</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-786"
+                                    id="mega-menu-item-786"><a class="mega-menu-link" href="#" aria-haspopup="true"
+                                        aria-expanded="false" tabindex="0">Projects<span class="mega-indicator"
+                                            data-has-click-event="true"></span></a>
+                                    <ul class="mega-sub-menu menu-projects">
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-2 mega-menu-item-838"
+                                            id="mega-menu-item-838"><a class="mega-menu-link"
+                                                href="./current_project.html">Current
+                                                Project<span class="mega-indicator"
+                                                    data-has-click-event="true"></span></a>
                                         </li>
-                                        <li style="padding: 0 5px 0 5px;font-size: 17px;cursor: pointer;"
-                                            class="child-dropdown">
-                                            <a rel="nofollow" href="./wfm.html" class="external-link child" style="font-family: monospace;white-space:nowrap;padding-top: 4px;padding-bottom: 8px;
-                                                ">Manpower Outsourcing</a>
-                                        </li>
-                                        <li style="padding: 0 5px 0 5px;font-size: 17px;cursor: pointer;"
-                                            class="child-dropdown">
-                                            <a rel="nofollow" href="./am.html" class="external-link child" style="font-family: monospace;white-space:nowrap;padding-top: 4px;padding-bottom: 8px;
-                                                ">Asset Management</a>
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-2 mega-menu-item-844"
+                                            id="mega-menu-item-844"><a class="mega-menu-link"
+                                                href="./projects.html">Project<span class="mega-indicator"
+                                                    data-has-click-event="true"></span></a>
                                         </li>
                                     </ul>
-                                </div>
-                            </li>
-                            <li class="project-dropdown menu-align"><a style="font-family: monospace;" rel="nofollow"
-                                    href="./project.html" class="external-link ">
-                                    Projects</a>
-                                <div style="position: absolute;
-                                        z-index: 1000;
-                                        background: white;
-                                        margin-left: 36%;
-                                        width: 187%;" class="dropdown">
-                                    <ul class="nav">
-                                        <li style="padding: 0 5px 0 5px;font-size: 17px;cursor: pointer;"
-                                            class="child-dropdown">
-                                            <a rel="nofollow" href="./project.html" class="external-link child " style="font-family: monospace;padding-top: 4px;padding-bottom: 8px;
-                                                ">Projects</a>
-                                        </li>
-                                        <li style="padding: 0 5px 0 5px;;font-size: 17px;cursor: pointer;"
-                                            class="child-dropdown">
-                                            <a rel="nofollow" href="./currentProject.html" class="external-link child"
-                                                style="font-family: monospace;padding-top: 4px;padding-bottom: 8px;
-                                                ">Current Projects</a>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-ancestor mega-current-menu-parent mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-884"
+                                    id="mega-menu-item-884"><a class="mega-menu-link" href="#" aria-haspopup="true"
+                                        aria-expanded="false" tabindex="0">Services<span class="mega-indicator"
+                                            data-has-click-event="true"></span></a>
+                                    <ul class="mega-sub-menu">
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-columns-1-of-3 mega-menu-item-788"
+                                            id="mega-menu-item-788"><a class="mega-menu-link"
+                                                href="./asset-management.html">Asset Management</a></li>
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-columns-1-of-3 mega-menu-item-789"
+                                            id="mega-menu-item-789"><a class="mega-menu-link"
+                                                href="./digital-transformation.html">Digital Transformation</a></li>
+                                        <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-menu-columns-1-of-3 mega-menu-item-787"
+                                            id="mega-menu-item-787"><a class="mega-menu-link"
+                                                href="./outsourcing.html">Manpower Outsourcing</a>
                                         </li>
                                     </ul>
+                                </li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-791"
+                                    id="mega-menu-item-791"><a class="mega-menu-link" href="./client.html"
+                                        tabindex="0">Clients</a></li>
+                                <li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-791"
+                                    id="mega-menu-item-791"><a class="mega-menu-link" href="./contact_us.html"
+                                        tabindex="0">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- #site-navigation -->
+                </div>
+            </div>
+        </header><!-- #masthead -->
+
+        <div id="sq-content" class="sq-site-content sq-clearfix">
+
+            <section id="sq-home-slider-section">
+                <div id="sq-bx-slider" class="owl-carousel owl-loaded owl-drag">
+
+
+
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(-4557px, 0px, 0px); transition: all 0s ease 0s; width: 10635px;">
+                            <div class="owl-item cloned" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count2">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2019/04/slider-f.jpg"
+                                        alt="Slider">
+
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                TEAM YOU WANT TO WORK WITH </div>
+
+                                            <div class="sq-slide-cap-desc">
+                                                Services backed up by credibility and trustworthiness. </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </li>
-                            <li class="menu-align"><a style="font-family: monospace;" rel="nofollow"
-                                    href="./clients.html" class="external-link">
-                                    Clients</a></li>
-                            <li class="menu-align"><a style="font-family: monospace;color:white;
-                                padding-top: 9%;
-                                margin-bottom: 3%;
-                                height: 43px;
-                                border-radius: 10px;
-                                background: rgb(9,9,121);
-background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 54%);" rel="nofollow"
-                                    href="./contact.html" class="contact-menu external-link">Contact</a></li>
+                            </div>
+                            <div class="owl-item cloned" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count3">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2020/11/slider-e.jpg"
+                                        alt="Slider">
 
-                        </ul>
-                    </div>
-                    <div class="col-xs-8 visible-xs">
-                        <a style="font-family: monospace;" href="#" id="mobile_menu"><span
-                                class="glyphicon glyphicon-th-list"></span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex;">
-        <div class="banner" id="templatemo_banner_slide">
-            <ul>
-                <li class="templatemo_banner_slide_01">
-                    <div class="slide_caption" style="margin-left: 30%;">
-                        <h1 style="font-family: monospace;" class="red-primary">WELCOME</h1>
-                        <p style="font-family: monospace;" class="green-primary">EXPLORE VP SOFTWARE.</p>
-                    </div>
-                </li>
-                <li class="templatemo_banner_slide_02">
-                    <div class="slide_caption">
-                        <h1 style="font-family: monospace;" class="red-primary">PMG DISHA</h1>
-                        <p style="font-family: monospace;" class="green-primary">PRADHAN MANTRI GRAMIN DIGITAL SAKSHARTA
-                            ABHIYAN.</p>
-                    </div>
-                </li>
-                <li class="templatemo_banner_slide_03">
-                    <div class="slide_caption" style="white-space: nowrap;">
-                        <h1 style="font-family: monospace;" class="red-primary">UIDAI - ENROLMENT AGENCY</h1>
-                        <p style="font-family: monospace;" class="green-primary" style="white-space: nowrap;">UNIQUE
-                            IDENTIFICATION AUTHORITY OF INDIA.
-                        </p>
-                    </div>
-                </li>
-                <li class="templatemo_banner_slide_04">
-                    <div class="slide_caption" style="margin-left: 48%;">
-                        <h1 style="font-family: monospace;" class="red-primary">OUTSOURCING</h1>
-                        <p style="font-family: monospace;color: white;" class="green-primary">We deal with software
-                            outsourcing.</p>
-                    </div>
-                </li>
-                <li class="templatemo_banner_slide_05">
-                </li>
-            </ul>
-        </div>
-        <div class="feeds">
-            <div class="feed-title">
-                <h4 style="text-align: center;
-                font-weight: 800;
-                padding-bottom: 4%;
-                border-bottom: #C0C0C0 5px solid;color: white;">News Feeds</h4>
-            </div>
-            <marquee behavior="scroll" class="marq feed-content" direction="up" loop="" onmouseover="this.stop();"
-                onmouseout="this.start();">
-                <div style="line-height: .8;padding: 9px 6px 3px 9px;color: white;
-                background: linear-gradient( 
-            90deg
-             , rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 54%);">
-                    <p style="font-family: monospace;font-size: 12px; font-weight: 800;">Current Openings</p>
-                    <p style="font-family: monospace;line-height: 1.5;
-                    font-size: 11px;">We are currently hiring you can check all the further details over <a
-                            href="./career.html" style="color: white;font-family: monospace;">here</a></p>
-                </div>
-                <div style="line-height: .8;padding: 9px 6px 3px 9px;">
-                    <p style="font-family: monospace;font-size: 12px; font-weight: 800;">UUID approval</p>
-                    <p style="font-family: monospace;line-height: 1.5;
-                    font-size: 11px;">
-                        We will be starting UUID Approval on 22/01/2021 <a style="font-family: monospace;"
-                            href="./currentProject.html">here</a>
-                    </p>
-                </div>
-                <div style="line-height: .8;padding: 9px 6px 3px 9px;color: white;
-                background: linear-gradient( 
-            90deg
-             , rgba(9,9,121,1) 0%, rgba(26,100,221,1) 0%, rgba(0,212,255,1) 54%);">
-                    <p style="font-family: monospace;font-size: 12px; font-weight: 800;">Current Project</p>
-                    <p style="font-family: monospace;line-height: 1.5;
-                    font-size: 11px;">
-                        You can check our current running project over <a href="./currentProject.html"
-                            style="color: white;font-family: monospace;">here</a>
-                    </p>
-                </div>
-                <div style="line-height: .8;padding: 9px 6px 3px 9px;">
-                    <p style="font-family: monospace;font-size: 12px; font-weight: 800;">Contact</p>
-                    <p style="font-family: monospace;line-height: 1.5;
-                    font-size: 11px;">
-                        Contact us at <a style="font-family: monospace;" href="./contact.html">click here</a>
-                    </p>
-                </div>
-            </marquee>
-        </div>
-    </div>
-    <div id="templatemo_about" class="container_wapper">
-        <h1 style="font-family: monospace;text-align:center; font-weight:bold; color: black;">Our Services
-            <hr style="background-color: #ec971f; height:1.4px; margin-top:6px; padding:0px; width:150px;">
-        </h1>
-        <div class="container-fluid" style="display: flex; margin-left: 7%;">
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                BOOST YOUR BUSINESS &amp; GROW TOGETHER </div>
 
-            <div style="margin-right: 3%;">
-                <img style="height: 270px;border-radius: 6px;" src="images/emp1.jpg">
-                <p style="font-family: monospace;padding-top: 1%;font-weight: bold; text-align: center;">Digital
-                    Transformation <a href="./dt.html" class="glyphicon glyphicon-link" ></a></p>
-            </div>
-            <div style="margin-right: 3%;">
-                <img style="height: 270px;border-radius: 6px;" src="images/emp2.jpg">
-                <p style="font-family: monospace;padding-top: 1%;font-weight: bold; text-align: center;">Manpower
-                    Outsourcing <a href="./wfm.html" class="glyphicon glyphicon-link"></a></p>
-            </div>
-            <div style="margin-right: 3%;">
-                <img style="height: 270px;border-radius: 6px;" src="images/emp3.jfif">
-                <p style="font-family: monospace;padding-top: 1%;font-weight: bold; text-align: center;">Asset
-                    Management <a href="./am.html" class="glyphicon glyphicon-link"></a></p>
-            </div>
+                                            <div class="sq-slide-cap-desc">
+                                                We focus on helping clients design and build tomorrow’s organisation.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count1">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2020/11/slider2.jpg"
+                                        alt="Slider">
 
-        </div>
-        <div class="templatemo_banner_01">
-            <section id="about-us" class="parallax" style="color: white;">
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                UNIQUE SOLUTIONS FOR YOU BUSINESS </div>
 
-                <div class="container">
-                    <div class="row">
+                                            <div class="sq-slide-cap-desc">
+                                                We provide real world solutions to complex business issues through our
+                                                services. </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count2">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2019/04/slider-f.jpg"
+                                        alt="Slider">
 
-                        <h1 style="font-family: monospace;text-align:center; font-weight:bold; color: white;">About us
-                            <hr
-                                style="background-color: #ec971f; height:1.4px; margin-top:6px; padding:0px; width:125px;">
-                        </h1>
-                        <div class="col-sm-6">
-                            <div class="about-info wow fadeInUp animated" data-wow-duration="1000ms"
-                                data-wow-delay="300ms"
-                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                TEAM YOU WANT TO WORK WITH </div>
 
-                                <h4 style="color:#028fcc; font-weight:bold;">WHAT WE ARE</h4>
-                                <p style="font-family: monospace;">VP SOFTWARES PVT LTD, IS A RAPIDLY GROWING UPBEAT
-                                    MARKET LEADER IN THE FIELD OF
-                                    INFORMATION TECHNOLOGY &amp; OUTSOURCING BUSINESS.</p>
-                                <p style="font-family: monospace;">
-                                    The Company, was incorporated in 2011, having its head office in Bareilly (UP),
-                                    is managed by a team of experienced professionals having years of diversified
-                                    expertise in IT industry. Since incorporation, the Company is aggressively
-                                    working on different Government projects like Aadhaar, NPR 54 (Digitization),
-                                    NPR 40 (Biometric), LRC Digitization &amp; Scanning, CCTNS, SECC, etc in many
-                                    states of India.
-                                </p>
-                                <p style="font-family: monospace;">VP has always maintained a set standard for itself
-                                    and has achieved stringent
-                                    quality standards in IT Services and has become a benchmark for its quality
-                                    management and on time project completions by India's leading major quality
-                                    assessors</p>
+                                            <div class="sq-slide-cap-desc">
+                                                Services backed up by credibility and trustworthiness. </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count3">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2020/11/slider-e.jpg"
+                                        alt="Slider">
+
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                BOOST YOUR BUSINESS &amp; GROW TOGETHER </div>
+
+                                            <div class="sq-slide-cap-desc">
+                                                We focus on helping clients design and build tomorrow’s organisation.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count1">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2020/11/slider2.jpg"
+                                        alt="Slider">
+
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                UNIQUE SOLUTIONS FOR YOU BUSINESS </div>
+
+                                            <div class="sq-slide-cap-desc">
+                                                We provide real world solutions to complex business issues through our
+                                                services. </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 1519.2px;">
+                                <div class="sq-slide sq-slide-count2">
+                                    <img src="http://agarwalurs.com/wp-content/uploads/2019/04/slider-f.jpg"
+                                        alt="Slider">
+
+                                    <div class="sq-container">
+                                        <div class="sq-slide-caption">
+                                            <div class="sq-slide-cap-title">
+                                                TEAM YOU WANT TO WORK WITH </div>
+
+                                            <div class="sq-slide-cap-desc">
+                                                Services backed up by credibility and trustworthiness. </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="our-skills wow fadeInDown animated" data-wow-duration="1000ms"
-                                data-wow-delay="300ms"
-                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
-                                <!--  <img src="images/wrapper-img.gif" style="height:350px;">	-->
-                                <h4 style="color:#028fcc; font-weight:bold">WHAT WE DO?</h4>
-                                <p style="font-family: monospace;">We at VP Softwares Pvt Ltd have developed, smart
-                                    technology enabled solutions to
-                                    solve our clients’ toughest challenges, demonstrating a commitment to excellence
-                                    and a passion for exceeding expectations.</p>
-                                <p style="font-family: monospace;">We are often asked, “What you can do”?We tell them,
-                                    humbly and yet truthfully: we
-                                    do amazing things. We help in solvingtechnically complex &amp; critical
-                                    challenges.</p>
-                                <h4 style="color:#028fcc; font-weight:bold">VISION &amp; MISSION</h4>
-                                <p style="font-family: monospace;">To be the most trusted outsourcing &amp; Information
-                                    Technology Company by
-                                    offering our reliable &amp; quality services within the range of clients.</p>
+                    </div>
+                    <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i
+                                class="fa fa-angle-left"></i></button><button type="button" role="presentation"
+                            class="owl-next"><i class="fa fa-angle-right"></i></button></div>
+                    <div class="owl-dots disabled"></div>
+                </div>
+            </section>
 
-                                <p style="font-family: monospace;">To be the most promising leader of the global
-                                    Information Technology &amp;
-                                    outsourcing fraternity.</p>
+            <section id="sq-featured-post-section" class="sq-section">
+                <div class="sq-container">
+                    <div class="sq-featured-post-wrap sq-clearfix">
+                        <div class="sq-featured-post theme-colored-box sq-featured-post1">
+                            <div class="sq-featured-icon"><i class="fa fa fa-fighter-jet"></i></div>
+                            <h4>Digital Transformation</h4>
+                            <div class="sq-featured-excerpt">
+
+                                The integration of digital technology into all areas of a Business resulting in
+                                fundamental changes to How Business Operates and How they deliver Value To Customers.
+
+                                It is a cultural Exchange that requires organisations to continually challenge the
+                                status quo, experiment often, and get comfortable with failure. </div>
+                            <a href="https://agarwalurs.com/international-desk-2/" class="sq-featured-readmore">Read
+                                More<i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <div class="sq-featured-post theme-colored-box sq-featured-post2">
+                            <div class="sq-featured-icon"><i class="fa fa fa-group"></i></div>
+                            <h4>Asset Management</h4>
+                            <div class="sq-featured-excerpt">
+
+                                An excellent workplace makes a difference in the way people perform their work. It
+                                elevates their productivity and makes them feel safe and productive.This is why we at VP
+                                Softwares are committed to providing the best Asset management services... </div>
+                            <a href="https://agarwalurs.com/outsourcing/" class="sq-featured-readmore">Read More<i
+                                    class="fa fa-angle-right"></i></a>
+                        </div>
+                        <div class="sq-featured-post theme-colored-box sq-featured-post3">
+                            <div class="sq-featured-icon"><i class="fa fa fa-road"></i></div>
+                            <h4>Manpower Outsourcing</h4>
+                            <div class="sq-featured-excerpt">
+
+                                Due to the evolution of technology as well as the complexity of the business world,
+                                finding the ideal talent is a competitive advantage that businesses need to have. This
+                                is usually the reason why many firms hire the services of Agility Class...
+
+                                We all have the capability to offer these solutions globally by way of consistent
+                                approach and effective use of technology.We all have the necessary expertise and
+                                experience to deliver the right solutions to our clients...</div>
+                            <a href="https://agarwalurs.com/networking-partners-2/" class="sq-featured-readmore">Read
+                                More<i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sq-about-us-section" class="sq-section">
+                <div class="sq-container sq-clearfix">
+                    <div class="sq-about-sec">
+                        <h2 class="sq-section-title">Free Consultation</h2>
+                        <div class="sq-content">
+                            <p>VP Softwares is the leading business services provider in India, offering a variety of
+                                technology-enabled services to drive client productivity. We operate across various
+                                process areas such as sales & marketing, after sales service, customer care,
+                                manufacturing operations, and security management.</p>
+
+
+
+                            <div class="wp-block-button"><a class="wp-block-button__link no-border-radius"
+                                    href="./contact_us.html">Contact Us</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sq-tab-section" class="sq-section">
+                <div class="sq-container sq-clearfix">
+                    <h2 class="sq-section-title">MORE ABOUT US</h2>
+
+                    <ul class="sq-tab">
+                        <li class="sq-tab-list1 sq-active">
+                            <a href="#sq-tab1">
+                                <i class="fa fa fa-user"></i><span>Core Team</span> </a>
+                        </li>
+                        <li class="sq-tab-list2">
+                            <a href="#sq-tab2">
+                                <i class="fa fa fa-cogs"></i><span>Our Services</span> </a>
+                        </li>
+                    </ul>
+
+                    <div class="sq-tab-content">
+                        <div class="sq-tab-pane animated zoomIn" id="sq-tab1"
+                            style="display: block;    padding-right: 15%;">
+                            <h2 style="margin-left: 15%;">Our Team</h2>
+                            <div class="sq-content">
+                                <p style="text-align: end;">Our team consists of qualified and experienced professionals
+                                    who work in their
+                                    respective fields.</p>
+
+
+
+                                <div class="wp-block-columns">
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image size-large"><img loading="lazy" width="500"
+                                                height="500" src="images/team/Sharad.jpg" alt="" class="wp-image-994"
+                                                srcset="images/team/Sharad.jpg 500w, images/team/Sharad.jpg 300w, images/team/Sharad.jpg 150w"
+                                                sizes="(max-width: 500px) 100vw, 500px" style="height: 250px;"></figure>
+
+
+
+                                        <p><strong>Sharad Upadhyay</strong></p>
+
+
+
+                                        <p></p>
+                                    </div>
+
+
+
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image size-large"><a href="/sachin-agarwal"><img
+                                                    loading="lazy" width="500" height="500"
+                                                    src="images/team/Mahesh_Kumar_Agarwal.jpg" alt=""
+                                                    class="wp-image-823"
+                                                    srcset="images/team/Mahesh_Kumar_Agarwal.jpg 500w, images/team/Mahesh_Kumar_Agarwal.jpg 300w, images/team/Mahesh_Kumar_Agarwal.jpg 150w"
+                                                    sizes="(max-width: 500px) 100vw, 500px" style="height: 250px;"></a>
+                                        </figure>
+
+
+
+                                        <p><strong>Mahesh Kumar Agarwal</strong></p>
+
+
+
+                                        <p></p>
+                                    </div>
+
+
+
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image size-large"><img loading="lazy" width="500"
+                                                height="500" src="images/team/ripu.jpg" alt="" class="wp-image-944"
+                                                srcset="images/team/ripu.jpg 500w, images/team/ripu.jpg 300w, images/team/ripu.jpg 150w"
+                                                sizes="(max-width: 500px) 100vw, 500px" style="height: 250px;"></figure>
+
+
+
+                                        <p><strong>Ripusudan Mishra</strong></p>
+
+
+
+                                        <p></p>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="wp-block-columns">
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image size-large"><img loading="lazy" width="500"
+                                                height="500" src="images/team/sumit.jpg" alt="" class="wp-image-941"
+                                                srcset="images/team/sumit.jpg 500w, images/team/sumit.jpg 300w, images/team/sumit.jpg 150w"
+                                                sizes="(max-width: 500px) 100vw, 500px" style="height: 250px;"></figure>
+
+
+
+                                        <p><strong>Sumit Kumar</strong></p>
+
+
+
+                                        <p></p>
+                                    </div>
+
+
+
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image size-large"><img loading="lazy" width="500"
+                                                height="500"
+                                                src="https://agarwalurs.com/wp-content/uploads/2021/01/Deepesh-1-1.jpg"
+                                                alt="" class="wp-image-942"
+                                                srcset="https://agarwalurs.com/wp-content/uploads/2021/01/Deepesh-1-1.jpg 500w, https://agarwalurs.com/wp-content/uploads/2021/01/Deepesh-1-1-300x300.jpg 300w, https://agarwalurs.com/wp-content/uploads/2021/01/Deepesh-1-1-150x150.jpg 150w"
+                                                sizes="(max-width: 500px) 100vw, 500px" style="height: 250px;"></figure>
+
+
+
+                                        <p><strong>Dipesh</strong></p>
+
+
+
+                                        <p></p>
+                                    </div>
+
+
+
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image size-large"><img loading="lazy" width="500"
+                                                height="500"
+                                                src="https://agarwalurs.com/wp-content/uploads/2021/01/Rajat-1.jpg"
+                                                alt="" class="wp-image-997"
+                                                srcset="https://agarwalurs.com/wp-content/uploads/2021/01/Rajat-1.jpg 500w, https://agarwalurs.com/wp-content/uploads/2021/01/Rajat-1-300x300.jpg 300w, https://agarwalurs.com/wp-content/uploads/2021/01/Rajat-1-150x150.jpg 150w"
+                                                sizes="(max-width: 500px) 100vw, 500px" style="height: 250px;"></figure>
+
+
+
+                                        <p><strong>Rajat Agarwal</strong></p>
+
+
+
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sq-tab-pane animated zoomIn" id="sq-tab2">
+                            <h2>Our Services</h2>
+                            <div class="sq-content">
+                                <div class="wp-block-image">
+                                    <figure class="aligncenter size-large is-resized"><img loading="lazy"
+                                            src="https://agarwalurs.com/wp-content/uploads/2020/12/pe-photo-1.jpeg"
+                                            alt="" class="wp-image-751" width="374" height="270"
+                                            srcset="https://agarwalurs.com/wp-content/uploads/2020/12/pe-photo-1.jpeg 768w, https://agarwalurs.com/wp-content/uploads/2020/12/pe-photo-1-300x217.jpeg 300w"
+                                            sizes="(max-width: 374px) 100vw, 374px" style="height: 250px;"></figure>
+                                </div>
+
+
+
+                                <div class="wp-block-columns">
+                                    <div class="wp-block-column">
+                                        <p><strong>DIGITAL Transformation</strong></p>
+
+
+
+                                        <ul>
+                                            <li>Domestic IT Services</li>
+                                            <li>Payroll Services</li>
+                                            <li>Domestic BPO</li>
+                                            <li>Internal BPO</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wp-block-column">
+                                        <p><strong>MANPOWER OUTSOURCING</strong></p>
+
+
+
+                                        <ul>
+                                            <li>Staffing Services</li>
+                                            <li>Operation Support</li>
+                                            <li>IT Staffing</li>
+                                        </ul>
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="wp-block-columns">
+
+
+
+
+                                    <div class="wp-block-column">
+                                        <p><strong>TECHNOLOGY &amp; DIGITAL SOLUTION</strong></p>
+
+
+
+                                        <ul>
+                                            <li>Process Automation</li>
+                                            <li>Big Data &amp; Advanced Analytics</li>
+                                            <li>Software &amp; Application Development</li>
+                                            <li>ERP Consultancy</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wp-block-column">
+                                        <p><strong>ASSET MANAGEMENT </strong></p>
+
+
+
+                                        <ul>
+                                            <li>Integrated Management Services</li>
+                                            <li>Security Services</li>
+                                            <li>Industrial Serices</li>
+                                            <li>Network Services</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="sq-tab-pane animated zoomIn" id="sq-tab3">
+                            <h2>Frequently Asked Questions</h2>
+                            <div class="sq-content">
+
+
+                                <h4>How much does your service cost?</h4>
+
+
+
+                                <p>Vivamus massa mauris, hendrerit hendrerit facilisis consequat, auctor finibus turpis.
+                                    Nunc malesuada, quam et luctus imperdiet, turpis enim aliquam nisi, vitae sodales
+                                    lorem leo sit amet orci. Suspendisse eget nibh dignissim, lobortis nibh ac,
+                                    fermentum lacus. </p>
+
+
+
+                                <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+                                <h4>Can i change the plan afterward?</h4>
+
+
+
+                                <p>Vestibulum ultrices felis et imperdiet lobortis. In ornare rutrum dictum. Donec
+                                    lacinia mi odio, maximus mollis metus iaculis at. Aliquam sagittis mollis justo sit
+                                    amet gravida. </p>
+
+
+
+                                <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+                                <h4>What benefits do i get?</h4>
+
+
+
+                                <p>Maecenas eu sapien nisi. Morbi consequat turpis justo, a sollicitudin leo porttitor
+                                    vel. Ut sed diam facilisis, sodales dolor in, placerat sem. Phasellus mollis, leo
+                                    dictum dapibus placerat, nunc lectus accumsan sem, nec ullamcorper enim diam nec
+                                    odio.</p>
+                            </div>
+                        </div>
+                        <div class="sq-tab-pane animated zoomIn" id="sq-tab4">
+                            <h2>Request a Quote</h2>
+                            <div class="sq-content">
+                                <p>Praesent magna neque, elementum vel vulputate cursus, congue sed est. Nam vulputate
+                                    fringilla fringilla. In condimentum nulla quis ultrices venenatis. Nunc ut enim
+                                    eros. Nam ut odio dolor.</p>
+                                <p>[contact-form-7 id=”543″ title=”Contact form 1″]</p>
+                            </div>
+                        </div>
+                        <div class="sq-tab-pane animated zoomIn" id="sq-tab5">
+                            <h2>Our Executives</h2>
+                            <div class="sq-content">
+                                <p>Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Urna nec
+                                    tincidunt praesent semper feugiat nibh sed. Non arcu risus quis varius quam
+                                    quisque.&nbsp;</p>
+
+
+
+                                <div class="wp-block-columns has-3-columns">
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image"><img loading="lazy" width="800" height="800"
+                                                src="https://demo.hashthemes.com/squareone/wp-content/uploads/2019/04/team5.jpg"
+                                                alt="" class="wp-image-458"
+                                                srcset="https://agarwalurs.com/wp-content/uploads/2019/04/team5.jpg 800w, https://agarwalurs.com/wp-content/uploads/2019/04/team5-300x300.jpg 300w, https://agarwalurs.com/wp-content/uploads/2019/04/team5-150x150.jpg 150w, https://agarwalurs.com/wp-content/uploads/2019/04/team5-768x768.jpg 768w"
+                                                sizes="(max-width: 800px) 100vw, 800px">
+                                            <figcaption>Jacobs Welly<br>Chief Executive Officer</figcaption>
+                                        </figure>
+                                    </div>
+
+
+
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image"><img loading="lazy" width="800" height="800"
+                                                src="https://demo.hashthemes.com/squareone/wp-content/uploads/2019/04/team6.jpg"
+                                                alt="" class="wp-image-459"
+                                                srcset="https://agarwalurs.com/wp-content/uploads/2019/04/team6.jpg 800w, https://agarwalurs.com/wp-content/uploads/2019/04/team6-300x300.jpg 300w, https://agarwalurs.com/wp-content/uploads/2019/04/team6-150x150.jpg 150w, https://agarwalurs.com/wp-content/uploads/2019/04/team6-768x768.jpg 768w"
+                                                sizes="(max-width: 800px) 100vw, 800px">
+                                            <figcaption>Lily Peterson<br>Managing Director</figcaption>
+                                        </figure>
+                                    </div>
+
+
+
+                                    <div class="wp-block-column">
+                                        <figure class="wp-block-image"><img loading="lazy" width="800" height="800"
+                                                src="http://127.0.0.1/aurs/wp-content/uploads/2019/07/team9.jpg" alt=""
+                                                class="wp-image-546"
+                                                srcset="https://agarwalurs.com/wp-content/uploads/2019/07/team9.jpg 800w, https://agarwalurs.com/wp-content/uploads/2019/07/team9-300x300.jpg 300w, https://agarwalurs.com/wp-content/uploads/2019/07/team9-150x150.jpg 150w, https://agarwalurs.com/wp-content/uploads/2019/07/team9-768x768.jpg 768w"
+                                                sizes="(max-width: 800px) 100vw, 800px">
+                                            <figcaption>Leo Bell<br>Senior Supervisor</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="wp-block-button aligncenter is-style-squared"><a
+                                        class="wp-block-button__link" href="#">View All Members</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-        </div>
-    </div>
-    <div id="templatemo_footer">
-        <div class="footer-clean">
-            <footer>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-4 col-md-3 item">
-                            <h3 style="font-family: monospace;">Services</h3>
-                            <ul>
-                                <li><a style="font-family: monospace;" href="./currentProject.html">Web design</a></li>
-                                <li><a style="font-family: monospace;" href="./currentProject.html">Development</a></li>
-                                <li><a style="font-family: monospace;" href="./currentProject.html">Hosting</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 col-md-3 item">
-                            <h3 style="font-family: monospace;">About</h3>
-                            <ul>
-                                <li><a style="font-family: monospace;" href="./about.html">Company</a></li>
-                                <li><a style="font-family: monospace;" href="./bod.html">Team</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 col-md-3 item">
-                            <h3 style="font-family: monospace;">Careers</h3>
-                            <ul>
-                                <li><a style="font-family: monospace;" href="./career.html">Job openings</a></li>
-                                <li><a style="font-family: monospace;" href="./bod.html">Board Members</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 item social"><a style="font-family: monospace;" href="#"><i
-                                    class="icon ion-social-facebook"></i></a><a style="font-family: monospace;"
-                                href="#"><i class="icon ion-social-twitter"></i></a><a style="font-family: monospace;"
-                                href="#"><i class="icon ion-social-snapchat"></i></a><a style="font-family: monospace;"
-                                href="#"><i class="icon ion-social-instagram"></i></a>
-                            <p style="font-family: monospace;" class="copyright">VP Software © 2021</p>
+            <!-- <section id="sq-testimonial-section" class="sq-section">
+                <div class="sq-container">
+                    <h2 class="sq-section-title">TESTIMONIALS</h2>
+                    <div class="sq-section-subtitle">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</div>
+
+                    <div class="sq-testimonial-wrap">
+                        <div class="sq-testimonial-slider owl-carousel owl-loaded owl-drag">
+
+
+
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(-2970px, 0px, 0px); transition: all 0.25s ease 0s; width: 6930px;">
+                                    <div class="owl-item cloned" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team1-150x150.jpg">
+                                                    <h4>John Smith</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Avira Enterprises </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team3-150x150.jpg">
+                                                    <h4>Perry Warner</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Tedy Group </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team-1-150x150.jpg">
+                                                    <h4>Jenny Smith</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Exo Tech </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team1-150x150.jpg">
+                                                    <h4>John Smith</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Avira Enterprises </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team3-150x150.jpg">
+                                                    <h4>Perry Warner</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Tedy Group </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team-1-150x150.jpg">
+                                                    <h4>Jenny Smith</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Exo Tech </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 990px;">
+                                        <div class="sq-testimonial">
+                                            <div class="sq-testimonial-inner">
+                                                <div class="sq-testimonial-excerpt">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                                                        imperdiet tellus, id varius risus. Aenean ac nibh at ex
+                                                        elementum interdum et non odio. Pellentesque congue arcu in
+                                                        augue tristique pretium. Pellentesque eget urna pretium, feugiat
+                                                        sem id, lacinia velit. Nam molestie diam nec molestie accumsan.
+                                                        Fusce dui nunc, egestas at eros sed, iaculis […]</p>
+                                                </div>
+
+                                                <div class="sq-testimonial-image">
+                                                    <img
+                                                        src="https://agarwalurs.com/wp-content/uploads/2015/10/team1-150x150.jpg">
+                                                    <h4>John Smith</h4>
+
+                                                    <div class="sq-testimonial-designation">
+                                                        CEO, Avira Enterprises </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-nav disabled"><button type="button" role="presentation"
+                                    class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button"
+                                    role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div>
+                            <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button
+                                    role="button" class="owl-dot active"><span></span></button><button role="button"
+                                    class="owl-dot"><span></span></button></div>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </section> -->
+
+        </div><!-- #content -->
+
+        <footer id="sq-colophon" class="sq-site-footer">
+            <div id="sq-top-footer">
+                <div class="sq-container">
+                    <div class="sq-top-footer sq-clearfix">
+                        <div class="sq-footer sq-footer1">
+                            <aside id="custom_html-3" class="widget_text widget widget_custom_html">
+                                <h5 class="widget-title">About Us</h5>
+                                <div class="textwidget custom-html-widget">We are the leading business services provider
+                                    in India, offering a variety of technology-enabled services to drive client
+                                    productivity. We operate across various process areas such as sales & marketing,
+                                    after sales service, customer care, manufacturing operations, and security
+                                    management.
+                                    <a href="./about-us.html">Read More</a>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <div class="sq-footer sq-footer2">
+                            <aside id="custom_html-4" class="widget_text widget widget_custom_html">
+                                <h5 class="widget-title">Offices</h5>
+                                <div class="textwidget custom-html-widget"><a href="./contact_us.html">
+                                        <ul>
+                                            <li>Delhi- NCR</li>
+                                            <li>Chennai</li>
+                                            <li>Bareilly</li>
+                                            <li>Kasganj</li>
+                                            <li>Hathras</li>
+                                        </ul>
+                                    </a></div>
+                            </aside>
+                        </div>
+
+                        <div class="sq-footer sq-footer3">
+                            <aside id="custom_html-5" class="widget_text widget widget_custom_html">
+                                <h5 class="widget-title">Useful Links</h5>
+                                <div class="textwidget custom-html-widget">
+                                    <ul>
+                                        <li><a href="./careers.html" target="_blank" rel="noopener">Career</a></li>
+                                        <li><a href="https://www.incometaxindiaefiling.gov.in/" target="_blank"
+                                                rel="noopener">E-Filing Income Tax</a></li>
+                                        <li><a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of
+                                                Corporate Affairs</a></li>
+                                        <li><a href="https://www.rbi.org.in" target="_blank" rel="noopener">Reserve Bank
+                                                of India</a></li>
+                                        <li><a href="https://www.icai.org/" target="_blank" rel="noopener"> ICAI - The
+                                                Institute of Chartered Accountants of India</a></li>
+                                        <li><a href="https://www.gst.gov.in" target="_blank" rel="noopener">Goods and
+                                                Services Tax</a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <div class="sq-footer sq-footer4">
+                            <aside id="square_contact_info-1" class="widget widget_square_contact_info">
+                                <div class="sq-contact-info">
+                                    <h5 class="widget-title">Contact Us</h5>
+                                    <ul>
+                                        <li><i class="fa fa-phone"></i>+91-83929 29293</li>
+
+                                        <li><i class="fa fa-envelope"></i>vpsoftwarespvtltd@gmail.com</li>
+
+                                        <li><i class="fa fa-globe"></i>https://vpsoftwares.co.in/</li>
+
+                                        <li><i class="fa fa-map-marker"></i>
+                                            <p>Head Office: 1st Floor Galaxy Tower, Ekta Nagar, Bareilly, India - 243122
+                                            </p>
+                                        </li>
+
+                                        <li><i class="fa fa-clock-o"></i>
+                                            <p>Mon - Fri<br>
+                                                10:00 AM - 6:00 PM</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div id="sq-bottom-footer">
+    <div class="sq-container sq-clearfix">
+        <div class="sq-site-info">
+            WordPress Theme                <span class="sep"> | </span>
+            <a target="_blank" href="https://hashthemes.com/wordpress-theme/squarepress/">SquarePress</a> by HashThemes            </div>
+
+        <div class="sq-site-social">
+            <a class="sq-facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a><a class="sq-twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a><a class="sq-pinterest" href="#" target="_blank"><i class="fa fa-pinterest"></i></a><a class="sq-youtube" href="#" target="_blank"><i class="fa fa-youtube"></i></a><a class="sq-linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a><a class="sq-instagram" href="#" target="_blank"><i class="fa fa-instagram"></i></a>            </div>
+    </div>
+</div> -->
+        </footer><!-- #colophon -->
+    </div><!-- #page -->
+
+    <div class="sfm-floating-menu middle-right sfm-rect vertical">
+
+        <div class="sfm-button sfm-612c88cd38652">
+            <a class="sfm-shape-button" target="_blank" href="http://"><i class="icofont-dart"></i></a>
         </div>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script src="js/unslider.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-    <script src="js/templatemo_script.js"></script>
+    <script type="text/javascript" src="js/custom-scripts.js" id="sfm-custom-scripts-js"></script>
+    <script type="text/javascript" src="js/squarepress-custom.js" id="squarepress-custom-js"></script>
+    <script type="text/javascript" src="js/modernizr.js" id="modernizr-js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js" id="owl-carousel-js"></script>
+    <script type="text/javascript" src="js/jquery.superfish.js" id="jquery-superfish-js"></script>
+    <script type="text/javascript"
+        src="https://agarwalurs.com/wp-content/themes/square/js/draggabilly.pkgd.min.js?ver=1.0.8"
+        id="square-draggabilly-js"></script>
+    <script type="text/javascript" src="https://agarwalurs.com/wp-content/themes/square/js/elastiStack.js?ver=1.0.8"
+        id="square-elastiStack-js"></script>
+    <script type="text/javascript" src="js/hoverIntent.min.js" id="hoverIntent-js"></script>
+    <script type="text/javascript" id="megamenu-js-extra">
+        /* <![CDATA[ */
+        var megamenu = { "timeout": "300", "interval": "100" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="js/maxmegamenu.js" id="megamenu-js"></script>
+    <script type="text/javascript" src="js/wp-embed.min.js" id="wp-embed-js"></script>
+
+
+
 </body>
 
 </html>
